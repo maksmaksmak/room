@@ -1,0 +1,270 @@
+body {
+    display: flex;
+}
+
+.wall-right {
+    position: relative;
+    width: 429px;
+    height: 842px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    z-index: -2;
+}
+
+.shelf {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sh-1 {
+    top: 242px;
+}
+
+.sh-2 {
+    top: 389px;
+}
+
+.sh-2-2 {
+    height: 17px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+
+.sh-3 {
+    top: 536px;
+}
+
+.shelf::before {
+    content: '';
+    background: url(img/shelf-shadow.png);
+    position: absolute;
+    width: 241.57px;
+    height: 39.08px;
+    z-index: -1;
+}
+
+.frame {
+    position: absolute;
+    top: 156px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sh-2::after {
+    content: '';
+    background: url(img/flower.png);
+    position: absolute;
+    width: 138.15px;
+    height: 124.15px;
+    z-index: -1;
+    top: -124px;
+    left: 0px;
+}
+
+.sh-2-2::before {
+    content: '';
+    background: url(img/clock.png);
+    position: absolute;
+    width: 96.58px;
+    height: 96.65px;
+    z-index: -1;
+    top: -97px;
+    right: 0;
+}
+
+.sh-3::after {
+    content: '';
+    background: url(img/cakes.png);
+    position: absolute;
+    width: 166.32px;
+    height: 99.85px;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -100px;
+}
+
+.cabinet {
+    position: absolute;
+    top: 630px;
+    left: 100px;
+}
+
+.c-1 {
+    position: absolute;
+    background-color: #FFFDAE;
+    width: 194.56px;
+    height: 86.84px;
+    left: 22px;
+    top: 142px;
+}
+
+.c-2-h {
+    position: absolute;
+    width: 42.87px;
+    height: 6.32px;
+    background: #4F5460;
+    top: 165px;
+    left: 100px;
+    opacity: 0.6;
+
+}
+
+.c-3 {
+    position: absolute;
+    width: 194.56px;
+    height: 98.06px;
+    background: #FFFDAE;
+    left: 21px;
+    top: 25px;
+}
+
+.c-4-h {
+    position: absolute;
+    width: 42.87px;
+    height: 6.32px;
+    background: #4F5460;
+    left: 100px;
+    top: 55px;
+    opacity: 0.6;
+}
+
+.cabinet::before {
+    content: '';
+    background: url(img/cabinet-shadow.png);
+    position: absolute;
+    width: 144.86px;
+    height: 228.78px;
+    right: -10px;
+    z-index: -1;
+}
+
+.wall-window {
+    position: relative;
+    height: 848px;
+    width: 402px;
+    background-color: #999292;
+    z-index: -2;
+}
+
+.wall-window::before {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 100%;
+    background-color: #363942;
+    opacity: 0.26;
+}
+
+.wall-window::after {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 100%;
+    background-color: #363942;
+    opacity: 0.26;
+    right: 0;
+}
+
+
+.window {
+    position: absolute;
+    top: 104px;
+    left: 36px;
+    z-index: 1;
+}
+
+.rope {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    z-index: -1;
+}
+
+.blinds {
+    position: absolute;
+    top: 25.5px;
+    left: 17.5px;
+}
+
+.blind {
+    width: 301.07px;
+    height: 15.16px;
+    background: url(img/blind.png);
+    /* background-size: contain; */
+}
+
+.wall-center {
+    position: relative;
+    width: 259.88px;
+    height: 842px;
+    background-color: rgb(255, 255, 255);
+}
+
+.photo-square {
+    position: absolute;
+    top: 369px;
+    left: 80px;
+    z-index: 1;
+}
+
+.photo-square::before {
+    content: '';
+    background: url(img/shadow-s.png);
+    position: absolute;
+    width: 103.37px;
+    height: 111.2px;
+    right: 0;
+    z-index: -1;
+}
+
+.photo-circle {
+    position: absolute;
+    top: 206px;
+    left: 75px;
+    z-index: 1;
+}
+
+.photo-circle::before {
+    content: '';
+    background: url(img/shadow-c.png);
+    position: absolute;
+    width: 110.06px;
+    height: 110.15px;
+    right: 0;
+    z-index: -1;
+}
+
+.wall-left {
+    position: relative;
+    width: 429px;
+    height: 846px;
+    background-color: rgb(255, 255, 255);
+}
+
+.tv {
+    position: absolute;
+    top: 185px;
+    left: 56px;
+    z-index: 1;
+}
+
+.tv::before {
+    content: '';
+    background: url(img/tv-shadow.png);
+    position: absolute;
+    width: 330.5px;
+    height: 197px;
+    top: 8px;
+    left: -11px;
+    z-index: -1;
+}
+
+.flower-2{
+    position: absolute;
+    top: 459px;
+    left: 156px;
+}
