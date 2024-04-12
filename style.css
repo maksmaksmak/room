@@ -1,5 +1,10 @@
-body {
+.home {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
 }
 
 .wall-right {
@@ -7,7 +12,6 @@ body {
     width: 429px;
     height: 842px;
     background-color: rgb(255, 255, 255);
-    border: 2px solid black;
     z-index: -2;
 }
 
@@ -89,8 +93,8 @@ body {
 
 .cabinet {
     position: absolute;
-    top: 630px;
-    left: 100px;
+    right: 84px;
+    top: -216px;
 }
 
 .c-1 {
@@ -144,10 +148,11 @@ body {
 
 .wall-window {
     position: relative;
-    height: 848px;
+    height: 842px;
     width: 402px;
     background-color: #999292;
-    z-index: -2;
+    z-index: -6;
+
 }
 
 .wall-window::before {
@@ -202,6 +207,8 @@ body {
     width: 259.88px;
     height: 842px;
     background-color: rgb(255, 255, 255);
+    z-index: -6;
+
 }
 
 .photo-square {
@@ -241,8 +248,9 @@ body {
 .wall-left {
     position: relative;
     width: 429px;
-    height: 846px;
+    height: 842px;
     background-color: rgb(255, 255, 255);
+    z-index:-2;
 }
 
 .tv {
@@ -263,8 +271,104 @@ body {
     z-index: -1;
 }
 
-.flower-2{
+.flower-2 {
     position: absolute;
-    top: 459px;
+    top: -400px;
     left: 156px;
+
+}
+
+.floor {
+    position: relative;
+    height: 237px;
+    width: 1920px;
+    background: url(img/floor.png);
+    z-index: -2;
+}
+
+.carpet {
+    position: absolute;
+    background: url(img/carpet.png);
+    width: 1654.04px;
+    height: 135.69px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    z-index: 2;
+}
+
+.sofa {
+    position: absolute;
+    width: 844.77px;
+    height: 381.51px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url(img/sofa.png);
+    top: -292px;
+    z-index: 1;
+}
+
+.pillow-left {
+    position: absolute;
+    width: 148.53px;
+    height: 147.02px;
+    background: url(img/pillow-left.png);
+    left: 114px;
+    top: 71px;
+}
+
+.pillow-right {
+    position: absolute;
+    width: 157.41px;
+    height: 164.68px;
+    background: url(img/pillow-right.png);
+    right: 118px;
+    top: 56px;
+}
+
+.plaid {
+    position: absolute;
+    width: 162px;
+    height: 98.34px;
+    background: url(img/plaid.png);
+    left: 50%;
+    transform: translateX(-50%);
+    top: -14px;
+}
+
+.chair-r {
+    position: absolute;
+    width: 223.15px;
+    height: 201.46px;
+    background: url(img/chair-r.png);
+    right: 265px;
+    top: -120px;
+}
+
+.chair-l {
+    position: absolute;
+    width: 223.15px;
+    height: 201.46px;
+    background: url(img/chair-l.png);
+    left: 245px;
+    top: -120px;
+}
+
+.table {
+    position: absolute;
+    width: 544.69px;
+    height: 267.44px;
+    background: url(img/table.png);
+    left: 700px;
+    z-index: 3;
+    top: -65px;
+}
+
+.aquarium {
+    position: absolute;
+    width: 192.99px;
+    height: 174.51px;
+    background: url(img/aquarium.png);
+    left: 169px;
+    top: -142px;
 }
