@@ -1,0 +1,93 @@
+@media (max-width: 1920px) {
+
+  /* CSS стили, применяемые для экранов с минимальной шириной 768px и больше */
+  .ww-1 {
+    display: none;
+  }
+
+  .floor {
+    width: 1518px;
+  }
+
+  .carpet {
+    width: 1518px;
+    height: 135px;
+    background-size: 1518px 135px;
+  }
+}
+
+@media (max-width: 1520px) {
+  .wall-window {
+    display: none;
+  }
+
+  .floor {
+    width: 1118px;
+  }
+
+  .carpet {
+    width: 1118px;
+    background-size: 1118px 135px;
+  }
+
+  .chair-l {
+    width: 166px;
+    height: 148px;
+    left: 170px;
+    top: -65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .chair-r {
+    width: 155.15px;
+    height: 140.46px;
+    right: 176px;
+    top: -53px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .sofa {
+    width: 720.77px;
+    height: 381.51px;
+    top: -229px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .table {
+    width: 440.69px;
+    height: 216.44px;
+    top: -113px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .aquarium {
+    width: 161px;
+    height: 150px;
+    top: -121px;
+    left: 148px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .rock {
+    width: 123.81px;
+    height: 144.09px;
+    left: 12px;
+    top: 52px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .fish {
+    width: 40px;
+    height: 50px;
+    left: 100px;
+    top: 51px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

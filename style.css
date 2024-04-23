@@ -1,6 +1,7 @@
 .home {
     display: flex;
     flex-wrap: wrap;
+    max-width: 1923px;
 }
 
 .row-reverse {
@@ -208,7 +209,6 @@
     height: 842px;
     background-color: rgb(255, 255, 255);
     z-index: -6;
-
 }
 
 .photo-square {
@@ -250,7 +250,7 @@
     width: 429px;
     height: 842px;
     background-color: rgb(255, 255, 255);
-    z-index:-2;
+    z-index: -2;
 }
 
 .tv {
@@ -283,7 +283,6 @@
     height: 237px;
     width: 1920px;
     background: url(img/floor.png);
-    z-index: -2;
 }
 
 .carpet {
@@ -359,9 +358,10 @@
     width: 544.69px;
     height: 267.44px;
     background: url(img/table.png);
-    left: 700px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 3;
-    top: -65px;
+    top: -151px;
 }
 
 .aquarium {
@@ -372,3 +372,98 @@
     left: 169px;
     top: -142px;
 }
+
+.fish {
+    position: absolute;
+    width: 75px;
+    height: 91px;
+    background: url(img/fish.png);
+    left: 120px;
+    top: 80px;
+    animation: swim 7s linear infinite;
+
+}
+
+.fish-2 {
+    position: absolute;
+    width: 50px;
+    height: 33px;
+    background: url(img/рыба\ дз.png);
+    background-size: cover;
+    left: 20px;
+    top: 70px;
+    animation: fish-2 20s linear infinite;
+}
+
+.boobles {
+    position: absolute;
+    width: 133.79px;
+    height: 116.91px;
+    background: url(img/boobles.png);
+    left: 16%;
+    top: 36px;
+
+}
+
+.rock {
+    position: absolute;
+    width: 186.81px;
+    height: 144.09px;
+    background: url(img/rock.png);
+    top: 32px;
+    left: 9px;
+}
+
+.waterman {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: url(img/waterman.png);
+    background-size: 80px 80px;
+    display: none;
+}
+
+
+@keyframes swim {
+    0% {
+      transform: translate(-40%, -40%) rotate(0deg);
+    }
+    50% {
+      transform: translate(-40%, -40%) rotate(10deg);
+    }
+    100% {
+      transform: translate(-40%, -40%) rotate(0deg);
+    }
+  }
+
+@keyframes fish-2 {
+    0% {
+        transform: scaleX(-1);
+    }
+
+    40% {
+        transform: scaleX(-1);
+    }
+
+    50% {
+        transform: scaleX(1);
+        left: 110px;
+    }
+
+    90% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(-1);
+    }
+  }
+
+
+  
+
+
+
+
+
+  
