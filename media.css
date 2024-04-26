@@ -91,3 +91,70 @@
     background-repeat: no-repeat;
   }
 }
+
+@media (max-width: 1120px) {
+  .wall-left {
+    display: none;
+
+  }
+
+  .flower-2 {
+    display: none;
+  }
+
+  .floor {
+    width: 718px;
+  }
+
+  .carpet {
+    width: 718px;
+    background-size: 718px 135px;
+  }
+
+  .chair-r {
+    right: 55px;
+  }
+
+  .chair-l {
+    left: 35px;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .wall-center {
+    display: none;
+  }
+
+  .sofa {
+    display: none;
+  }
+
+  .floor {
+    width: 429px;
+  }
+
+  .carpet {
+    width: 429px;
+    background-size: 429px 135px;
+  }
+
+  .chair-l,
+  .chair-r {
+    display: none;
+  }
+
+  .table {
+    width: 384.69px;
+    height: 240.44px;
+    background: url(img/table-2.png);
+    background-repeat: no-repeat ;
+  }
+
+  .aquarium {
+    left: 125px;
+    top: -116px;
+  }
+
+
+}
