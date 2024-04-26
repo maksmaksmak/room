@@ -125,6 +125,12 @@
   .wall-center {
     display: none;
   }
+  
+
+  .wall-right{
+    height: 742px;
+  }
+
 
   .sofa {
     display: none;
@@ -148,7 +154,7 @@
     width: 384.69px;
     height: 240.44px;
     background: url(img/table-2.png);
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
   }
 
   .aquarium {
@@ -156,5 +162,20 @@
     top: -116px;
   }
 
+  .frame {
+    top: 20px;
+  }
+
+  .sh-1 {
+    top: 106px;
+  }
+
+  .sh-2 {
+    top: 276px;
+  }
+
+  .sh-3 {
+    top: 451px;
+  }
 
 }
