@@ -125,9 +125,9 @@
   .wall-center {
     display: none;
   }
-  
 
-  .wall-right{
+
+  .wall-right {
     height: 742px;
   }
 
@@ -177,5 +177,32 @@
   .sh-3 {
     top: 451px;
   }
+
+}
+
+@media(max-width: 430px) {
+  .floor {
+    width: 101%;
+    background-size: cover;
+  }
+
+  .carpet {
+    width: 95%;
+    background: #fff0;
+
+  }
+
+
+  .table {
+    width: 300px;
+    height: 187px;
+    background-size: contain;
+  }
+
+  .aquarium {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
 
 }
