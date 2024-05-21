@@ -13,7 +13,11 @@
     width: 429px;
     height: 842px;
     background-color: rgb(255, 255, 255);
-    z-index: -2;
+    z-index: 0;
+}
+
+.blue {
+    background-color: rgb(114 159 255);
 }
 
 .shelf {
@@ -386,11 +390,22 @@
 
 }
 
+/* .fish-2 {
+    position: absolute;
+    width: 50px;
+    height: 33px;
+    background: url(img/fish-2.png);
+    background-size: cover;
+    left: 20px;
+    top: 70px;
+    animation: fish-2 20s linear infinite;
+} */
+
 .fish-2 {
     position: absolute;
     width: 50px;
     height: 33px;
-    background: url(img/рыба\ дз.png);
+    background: url(img/fish-2.png);
     background-size: cover;
     left: 20px;
     top: 70px;
@@ -460,6 +475,31 @@
         transform: scaleX(-1);
     }
   }
+
+  @keyframes fish-3 {
+    0% {
+        transform: scaleX(1);
+    }
+
+    40% {
+        transform: scaleX(1);
+    }
+
+    50% {
+        transform: scaleX(-1);
+        left: 110px;
+    }
+
+    90% {
+        transform: scaleX(-1);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+  }
+
+
 
 
   
